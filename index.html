@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odaklan, Başar!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Odaklan, Başar!</h1>
+    <div>Telefon dikkatinizi <span id="count">0</span> kez dağıttı</div>
+    <button id="countButton" onclick="handleCount()">Buraya Tıklayın</button>
+    <div id="icon-button">
+        <i id="birdPlay" class="fa-regular fa-dove"></i>
+        <audio id="audioBirdPlay" src="/assets/birdsong.mp3" type="audio/mp3" controls></audio>
+        <i id="windPlay" class="fa-solid fa-wind"></i>
+        <audio id="audioWindPlay" src="/assets/wind.mp3" type="audio/mp3" controls></audio>
+        <i id="rainyPlay" class="fa-solid fa-cloud-showers-heavy"></i>
+        <audio id="audioRainPlay" src="/assets/rain.mp3" type="audio/mp3" controls></audio>
+    </div>
+    <input type="range" id="volume">
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
